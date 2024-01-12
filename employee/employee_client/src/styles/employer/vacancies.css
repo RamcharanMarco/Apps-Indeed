@@ -1,0 +1,83 @@
+.vacancies{
+    min-height: 80vh;
+    background-color: #F8F8F8;
+    display:flex;
+    flex-direction: column;
+    font-family: 'Darker Grotesque', sans-serif;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    gap: 10px;
+  }
+  
+  
+  .vacancy{
+    background-color: #F8F8F8;
+    border: 1px solid dodgerblue;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 50px 20px;
+    min-width: 200px;
+  }
+
+  .vacancy a{
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-family: 'Quantico', sans-serif;
+  }
+
+
+.empvacpag{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.empvacp{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.empvacp *{
+  margin: 0px 20px;
+}
+
+.empvacp button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  letter-spacing: 0.2rem;
+}
+
+
+.empvacpagtop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+@media (min-width: 700px) {
+  .vacancies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .vacancy{
+    padding: 50px;
+  }
+  
+}

@@ -1,0 +1,114 @@
+.createPortfolio{
+    min-height: 100vh;
+    background-color:azure;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.createPortfolio h1{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.createPortfolio form{
+    background-color: azure;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPortfolio form .file{
+    background-color: white;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPortfolio form .personaldetails{
+    background-color: white;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPortfolio form .personaldetails div{
+    display: flex;
+}
+
+.createPortfolio form .personaldetails div label{
+    width: 180px;
+}
+
+.createPortfolio form .personaldetails div input{
+    width: 250px;
+}
+
+/*###################################################################*/
+.createPortfolio form .about{
+    background-color: white;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createPortfolio form .about div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*###########################################*/
+.createPortfolio form .hobbiesdetails ul{
+    list-style: none;
+}
+
+.createPortfolio form .hobbiesdetails ul{
+    list-style: none;
+}
+
+
+/*###########################################*/
+.createPortfolio form .workandedu ul{
+    list-style: none;
+}
+
+
+#cancelCreatePortfolio{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.createPortfolio .next{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;  
+}
+
+.createPortfolio .prev{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;  
+}

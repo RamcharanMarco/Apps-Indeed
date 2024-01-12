@@ -1,0 +1,19 @@
+.progress{
+    background-color: red;
+    margin: 10px;
+}
+
+.bar{
+    padding: 10px;
+    background-color: yellow;
+}
+
+/*
+<div className="progress">
+    <div style={{width:`${(page/6) * 100}%`}} className="bar">
+    {
+        page === 1 ? <p>0%</p> : <p>{(page/6) * 100}</p>
+    }
+    </div>
+</div>
+*/

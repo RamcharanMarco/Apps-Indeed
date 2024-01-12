@@ -1,0 +1,15 @@
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-size: 15px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+footer h3{
+  padding: 0px 10px;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+}

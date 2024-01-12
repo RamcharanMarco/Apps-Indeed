@@ -1,0 +1,99 @@
+.home {
+  font-family: "Darker Grotesque", sans-serif;
+  width: 100%;
+}
+
+* {
+  word-wrap: break-word;
+}
+
+#jobView {
+  display: none;
+}
+
+.nav2 {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Darker Grotesque", sans-serif;
+  margin: 20px;
+}
+
+#viewButton {
+  display: none;
+}
+
+.input {
+  padding: 6px;
+  margin: 5px;
+}
+
+.nav2 p {
+  padding: 5px;
+}
+
+.jobfeed {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  /*grid-template-columns: 1fr 1fr;*/
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.jobslist {
+  /*background-color: azure;*/
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jobs {
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.jobs .details {
+  display: flex;
+  border-bottom: 1px solid dodgerblue;
+}
+
+.jobs .summary ul {
+  list-style: none;
+}
+
+@media (min-width: 900px) {
+  #jobView {
+    display: block;
+  }
+  main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  #viewButton {
+    display: block;
+  }
+  #viewButtonRedirect {
+    display: none;
+  }
+}
+
+.jobView {
+  background-color: #f8f8f8;
+  height: 100vh;
+  position: sticky;
+  top: 0px;
+  padding: 20px;
+}

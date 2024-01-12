@@ -1,0 +1,22 @@
+.job{
+    background-color: white;
+    height: 100%;
+    max-width: 100%;
+    border: 1px solid dodgerblue;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom{
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+  

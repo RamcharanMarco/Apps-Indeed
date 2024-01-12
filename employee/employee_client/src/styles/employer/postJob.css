@@ -1,0 +1,64 @@
+.postjobpage{
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .postjobpage form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .postjobpage form div{
+    background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .postjobpage form div input{
+    height: 35px;
+    width: 80%;
+  }
+  .postjobpage form div select{
+    height: 35px;
+    width: 80%;
+  }
+  .postjobpage form div button{
+    height: 35px;
+    width: 80%;
+  }
+
+  .duty, .req{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: tomato;
+  }
+
+  @media (min-width: 700px) {    
+    .postjobpage form div input{
+      height: 35px;
+      width: 300px;
+    }
+    .postjobpage form div select{
+      height: 35px;
+      width: 300px;
+    }
+    .postjobpage form div button{
+      height: 35px;
+      width: 300px;
+    }
+    .postjobpage button{
+      width: 300px;
+      justify-self: center;
+      align-self: center;
+    }
+  }
+  

@@ -1,0 +1,36 @@
+.employeeHome .content div{
+    padding: 40px;
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.employeename{
+    padding: 20px;
+    color: purple;
+}
+
+.employeeHome .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.employeeHome{
+    background-color: azure;
+    padding: 20px;
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.employeeHome a{
+    font-family: 'Quantico', sans-serif;
+}

@@ -1,0 +1,151 @@
+.applyJob{
+    min-height: 90vh;
+    background-color: azure;
+    padding: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.applyJob .jobDetails{
+    padding: 15px;
+    border: none;
+}
+
+.applyJob .jobDetails h2{
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+}
+
+.detail-box{
+    background-color: whitesmoke;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.applyJob .jobDetails .detail-box{
+    display: flex;
+}
+
+.applyJob .jobDetails .detail-box h4{
+    width: 50%;
+    text-align: end;
+    font-family: 'Quantico', sans-serif;
+}
+
+.applyJob .jobDetails h3{
+    font-family: 'Quantico', sans-serif;
+}
+
+
+.applyJob .jobDetails .duties{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.applyJob .jobDetails ul{
+    list-style: none;
+}
+
+.applyJob .jobDetails .requirements{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: whitesmoke;
+}
+
+
+
+.applyJob .applyJobLink{
+    background-color: purple;
+}
+
+.applyJob .uploadCv{
+    background-color: black;
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.applyJob .uploadCv h1, p, a{
+    margin: 10px;
+}
+
+.applyJob .uploadCv a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.5s;
+    letter-spacing: 0.1rem;
+    font-family: 'Quantico', sans-serif;
+}
+
+.applyJob .uploadCv a:hover{
+    background-color: green;
+}
+
+.applyJob .uploadCv p{
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.applyJob .applyJobLink{
+    background-color: seashell;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.applyJob .applyJobLink h1, p, button{
+    margin: 10px;
+}
+
+.applyJob .applyJobLink button{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.5s;
+    letter-spacing: 0.1rem;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.applyJob .applyJobLink p{
+    color: dodgerblue;
+}
+
+.applyJob .applyJobLink button:hover{
+    transform: scale(1.1);
+}

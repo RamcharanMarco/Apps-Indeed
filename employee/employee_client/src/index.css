@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto&family=Tilt+Warp&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.loading{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+}
+
+
+
+.pag{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.pag button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  outline: none;
+  letter-spacing: 0.2rem;
+}

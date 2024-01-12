@@ -1,0 +1,54 @@
+.postresumepage{
+    height: 100vh;
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+}
+
+.postresumepage p{
+    margin: 0px;
+}
+
+.postresumepage .hero{
+    color: black;
+text-align: center;
+}
+
+.postresumepage button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+  
+.postresume{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+
+.postresume .input-group{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;    
+    color: black;
+    margin: 0px;
+}
+
+.postresume label{
+    background-color: whitesmoke;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}

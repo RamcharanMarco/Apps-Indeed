@@ -1,0 +1,38 @@
+.employeeSignupPage{
+    height: 90vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: center;
+}
+
+.employeeSignupPage button{
+    margin: 20px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employeeSignupPage form{
+    display: flex;
+    flex-direction: column;
+}
+
+.employeeSignupPage form *{
+    margin: 10px;
+}
+
+.employeeSignupPage input{
+height: 40px;
+outline: none;
+border: 1px solid black;
+width: 300px;
+}
+  

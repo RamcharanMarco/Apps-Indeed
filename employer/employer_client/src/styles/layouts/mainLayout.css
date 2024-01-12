@@ -1,0 +1,8 @@
+.mainDropDownMenu{
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    top: 12vh;
+    transition: all 1s;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.vacancyDetailsEmp {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.vacancyDetailsEmp .container {
+  background-color: burlywood;
+  text-align: center;
+}
+
+.vacancyDetailsEmp .container div {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.vacancyDetailsEmp .nav {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}
+
+.vacancyDetailsEmp .container div ul{
+  list-style: none;
+}

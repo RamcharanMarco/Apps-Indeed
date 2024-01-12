@@ -1,0 +1,43 @@
+.search {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.search select,
+input,
+button {
+  height: 40px;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.search input {
+  width: 300px;
+  border: 0.5px solid dodgerblue;
+  outline: none;
+}
+
+.search select {
+  border: 0.5px solid dodgerblue;
+  outline: none;
+  width: 300px;
+}
+
+.search button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-family: "Quantico", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 600px) {
+  .search {
+    flex-direction: row;
+  }
+}

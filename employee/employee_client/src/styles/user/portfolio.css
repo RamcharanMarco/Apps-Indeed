@@ -1,0 +1,12 @@
+.portfolio {
+  background-color: green;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio .nav {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+}

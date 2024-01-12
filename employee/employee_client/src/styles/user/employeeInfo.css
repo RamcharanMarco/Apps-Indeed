@@ -1,0 +1,44 @@
+/* employee info */
+.employeeInfo{
+    background-color: azure;
+    min-height: 80vh;
+    display: grid;
+   grid-template-columns: 2fr 1fr;
+   font-family: 'Quantico', sans-serif;
+  }
+
+  .employeeInfo h1{
+    font-family: 'Darker Grotesque', sans-serif;
+  }
+  
+  .employeeInfo  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+
+.employeeInfo a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  width: 300px;
+  font-family: 'Darker Grotesque', sans-serif;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.employeeInfo button{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  width: 300px;
+  font-family: 'Darker Grotesque', sans-serif;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

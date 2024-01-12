@@ -1,0 +1,46 @@
+.employerHome{
+    background-color: azure;
+    min-height: 85vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 10px;
+  }
+  
+    
+  .employerHome div{
+    color: black;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+  }
+
+@media(min-width: 910px){
+  .employerHome{
+    background-color: azure;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 10px;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    padding: 10px;
+  }
+  .employerHome .one{
+    grid-column: 2 / span 3;
+  }
+  
+  .employerHome .two{
+    grid-column: 2 / span 3;
+  }
+  
+  .employerHome .three{
+    grid-row: 1 / span 2;
+  }
+  }

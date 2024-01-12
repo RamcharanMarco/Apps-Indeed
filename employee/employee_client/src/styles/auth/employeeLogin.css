@@ -1,0 +1,31 @@
+.employeeloginpage{
+    height: 90vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    text-align: center;
+    text-align: center;
+  }
+
+  .employeeloginpage form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .employeeloginpage form *{
+    margin: 10px;
+  }
+
+  .employeeloginpage input{
+    outline: none;
+    border: 1px solid black;
+    width: 300px;
+  }
+
+  .employeeloginpage button{
+    background-color: black;
+    color: white;
+  }
